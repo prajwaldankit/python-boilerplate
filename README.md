@@ -38,7 +38,12 @@ pre-commit install
 
 5. Configure the pre-commit parameters.
 Configure the `.pre-commit-config.yaml` according to your requirements.
-The code is formatted whenever you commit your changes.
+The code is formatted whenever you commit your changes but this does not stage your changes.
+
+4. Run the pre-commit command before staging your changes.
+```
+pre-commit run
+```
 
 6. Run the project.
 ```
